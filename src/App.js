@@ -228,7 +228,7 @@ class App extends Component {
 					</Row>
 
 					<Row>
-						<Col className="col-1">
+						<Col className="pl-0 col-1">
 							<OverlayTrigger
 								trigger="click"
 								placement="right"
@@ -237,7 +237,7 @@ class App extends Component {
 								<Button>Informasi</Button>
 							</OverlayTrigger>
 						</Col>
-						<Col>
+						<Col className="pl-0">
 							<Button onClick={this.collapseButton}>View Website</Button>
 							<Collapse in={this.state.buka}>
 								<p>Akses Sport V1.0</p>
